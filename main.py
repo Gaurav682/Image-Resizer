@@ -6,7 +6,7 @@ src = cv2.imread("johnny.jpg")  # Specify Name/Address of image
 # cv2.imshow('Mr. Depp', src) 
 
 # percentage by which image is resized
-scale_percent = 50
+scale_percent = 25
 
 # calculate the 50 percent of original dimensions
 width = int(src.shape[1] * scale_percent / 100) 
